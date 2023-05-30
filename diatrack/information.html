@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>General Information</title>
+    <link rel="stylesheet" href="src/stylesheets/main.css">
+    <link rel="stylesheet" href="src/stylesheets/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#f69435">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Dia-Track">
+    <link rel="apple-touch-icon" href="src/images/icon-192x192.png" sizes="192x192">
+</head>
+<body>
+<!----Home feed---->
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="src/images/mainlogo.png" alt="Logo"></a>
+
+        <div class="nav-links " id="navLinks">
+            <script src="src/javascript/navLinks.js"></script>
+            <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="blood_glucose.html">BLOOD GLUCOSE</a> </li>
+                <li><a href="exercise.html">EXERCISE</a> </li>
+                <li><a href="medication.html">MEDICATION</a> </li>
+                <li><a href="food.html">NUTRITION </a></li>
+                <li><a href="information.html">INFORMATION</a> </li>
+                <li><a href="about_us.html">ABOUT US</a> </li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>Effects of Healthy Lifestyle on Diabetes</h1>
+        <p>
+            Diabetes is a difficult disease to treat and manage (Rahati, et al., 2014) partially because several lifestyle factors such as food, exercise, medication, stress, menstruation, and menopause
+            can affect blood sugar level in the body, making it difficult to regulate. The most important factors are a heathy diet which will help reduce the amount the glucose left in the blood by controlling
+            carbohydrates intake, and exercise, which reduces the glucose in the blood by usage through exercise and physical activities.
+        </p>
+    </div>
+</section>
+<!----features feed---->
+<section class="features">
+    <div class="row">
+        <div class="features-col">
+            <h3>Healthy Diet</h3>
+            <p>
+                It has become essential for diabetic patients to learn and know how food affects the blood glucose level. Specific food such as carbohydrates are the most important part of the diet of a diabetic
+                patient (Healthline, 2022). This is because, carbohydrates are broken down into blood glucose in the body to be used for energy. As outlined in table x above, the average sugar level of a normal person
+                lies below 100mg/dL, but with high carbohydrates' intake during meals, the excess blood glucose level rise above the normal range leading to diabetes. Therefore, adopting healthy habits that include regulation
+                of carbohydrates intake, the inclusion of starches, fruits and vegetables, proteins, and fats into meal, and avoidance of sugar-sweetened beverages can drastically reduce the chance of becoming diabetic.
+            </p>
+        </div>
+        <div class="features-col">
+            <h3>Exercise</h3>
+            <p>
+                Physical activities are also crucial in managing diabetes as they help the body use insulin more efficiently. When a person exercises, the target muscles in the body use glucose in the blood for energy. According to
+                research by Harvard medical School, a group of diabetic patients from different ethnic backgrounds, prescribed with different medications and different diet plans, were put through the same exercise routine. As a result,
+                the HbA1C values across all the patients lowered by approximately 0.7% and all forms of exercise proved to effective at lowering the HbA1C values (Harvard Health Publishing - Harvard Medical School, 2021). This study proved
+                that exercise and physical activities helps all diabetic patients regardless of their physical or social differences. Further positive consequences of exercise include the lowering the risk of developing heart diseases and controlling
+                weight gain therefore reducing the chances of become obese.
+            </p>
+        </div>
+        <
+    </div>
+</section>
+<script src="src/javascript/app.js"></script>
+<script src="sw.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "diatrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8080 -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "chart.js": "^3.7.1",
+    "dexie": "^3.2.2",
+    "http": "^0.0.1-security",
+    "http-server": "^14.1.0",
+    "server": "^0.0.3"
+  }
+}

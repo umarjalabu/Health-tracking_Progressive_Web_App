@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link rel="stylesheet" href="src/stylesheets/main.css">
+    <link rel="stylesheet" href="src/stylesheets/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#f69435">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Dia-Track">
+    <link rel="apple-touch-icon" href="src/images/icon-192x192.png" sizes="192x192">
+</head>
+<body>
+<!----Home feed---->
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="src/images/mainlogo.png" alt="Logo"></a>
+
+        <div class="nav-links " id="navLinks">
+            <script src="src/javascript/navLinks.js"></script>
+            <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="blood_glucose.html">BLOOD GLUCOSE</a> </li>
+                <li><a href="exercise.html">EXERCISE</a> </li>
+                <li><a href="medication.html">MEDICATION</a> </li>
+                <li><a href="food.html">NUTRITION </a></li>
+                <li><a href="information.html">INFORMATION</a> </li>
+                <li><a href="about_us.html">ABOUT US</a> </li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>About Us</h1>
+        <p>
+            Name: Umar Jalabu Yakubu<br>
+            Supervisor: Dr Chenghua Lin<br>
+            Module Code: COM3500
+        </p>
+        <p>
+            A report submitted in partial fulfilment of the requirements for the degree of
+            Bachelor of Computer Science
+        </p>
+        <p>
+            The University of Sheffield
+            Department of Computer Science
+        </p>
+
+    </div>
+</section>
+<script src="src/javascript/app.js"></script>
+<script src="sw.js"></script>
+</body>
+</html>

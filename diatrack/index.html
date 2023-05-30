@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DiaTrack!</title>
+    <link rel="stylesheet" href="src/stylesheets/main.css" type="text/css">
+    <link rel="stylesheet" href="src/stylesheets/responsive.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="manifest" href="/manifest.json" type="appliction/json">
+    <meta name="theme-color" content="#f69435">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Dia-Track">
+    <link rel="apple-touch-icon" href="src/images/icon-192x192.png" sizes="192x192">
+</head>
+<body>
+    <!----Home feed---->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/src/images/mainlogo.png" alt="Logo"></a>
+
+            <div class="nav-links " id="navLinks">
+                <script src="/src/javascript/navLinks.js"></script>
+                <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="blood_glucose.html">BLOOD GLUCOSE</a> </li>
+                    <li><a href="exercise.html">EXERCISE</a> </li>
+                    <li><a href="medication.html">MEDICATION</a> </li>
+                    <li><a href="food.html">NUTRITION </a></li>
+                    <li><a href="information.html">INFORMATION</a> </li>
+                    <li><a href="about_us.html">ABOUT US</a> </li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Dia-Track</h1>
+            <p>A diabetes monitoring web application designed to assit you in tracking
+            your blood glucose levels, <br> exercise, medication, water and nutrition!</p>
+            <a href="" class="more-info">Visit us for more information</a>
+        </div>
+    </section>
+
+    <!----features feed---->
+    <section class="features">
+        <h1>Features of the website</h1>
+        <p> Scroll below to learn about the features Dia-Track offers.</p>
+
+        <div class="row">
+            <div class="features-col">
+                <h3>Blood Glucose Record</h3>
+                <p>On the Blood Glucose Tab, you can input your blood glucose reading on a favourable basis (Daily, Weekly, Monthly.
+                    The blood glucose levels will be measured in (mg/dl). After entry on the reading, clicking the create button, followed by the
+                    read button, post the reading on the table section. This allows for later review.
+                </p>
+            </div>
+            <div class="features-col">
+                <h3>Exercise Record</h3>
+                <p>On the Exercise Tab, you can record your exercise by entering the name and duration of the exercise. After entry of any record,
+                    the create button should be clicked to create the record, followed be the post button to add it to a table for later review.
+
+                </p>
+            </div>
+            <div class="features-col">
+                <h3>Medication Record</h3>
+                <p>On the Medication Tab, you can input your current medicines and the required dosage. This page will help serve as a reminder and help keep a log of you medication.
+                   after entering your medicine and dosage, clicking create button then the post button allows you to add it to the table below.
+                </p>
+            </div>
+            <div class="features-col">
+                <h3>Nutrition Record</h3>
+                <p>On the Nutrition Tab, you can input your water and carbohydrates intake on favorable basis (Daily, Weekly, Monthy). This page will help serve as a log and help keep a track of you nutrition.
+                    after entering your medicine and dosage, clicking create button then the post button allows you to add it to the table below.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <script src="src/javascript/app.js"></script>
+    <script src="sw.js"></script>
+
+</body>
+</html>
