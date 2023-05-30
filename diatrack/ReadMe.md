@@ -1,2 +1,2 @@
-run "npm star"t"
+run "npm start"
 to begin 
